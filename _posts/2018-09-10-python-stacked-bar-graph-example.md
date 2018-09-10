@@ -5,7 +5,14 @@ date: 2018-09-10 20:30 +0800
 categories: python
 ---
 
-[GPU rendering graph](/assets/com.example.overdraw.png)
+![GPU rendering graph](/assets/com.example.overdraw.png)
+
+When debugging android [GPU rendering](https://developer.android.com/topic
+/performance/rendering/profile-gpu) issue, plotting timing data to stacked bar
+ graph was the best way to visualize the potential rending issue.
+
+Following code was adapted from [Stacked Bar Graph](https://matplotlib.org/
+gallery/lines_bars_and_markers/bar_stacked.html) for this purpose:
 
 ```python
 import re
@@ -99,5 +106,5 @@ if __name__ == "__main__":
 ```
 
 ## References:
-- [Stacked Bar Graph](https://matplotlib.org/gallery/lines_bars_and_markers/bar_stacked.html)
-- [matplotlib.axes.Axes.tick_params](https://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.tick_params.html)
+- [matplotlib.axes.Axes.tick_params](https://matplotlib.org/api/_as_gen/
+matplotlib.axes.Axes.tick_params.html)
