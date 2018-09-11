@@ -19,7 +19,7 @@ brew cask info java
 
 ## Install Android SDK
 
-Goto [Android Command Line Tools](https://developer.android.com/studio/)
+Goto [Android Command Line Tools](https://developer.android.com/studio/),
 Scroll down to the Command line tools only section:
 
 [Download Android Command Line Tools for Mac](https://dl.google.com/android/repository
